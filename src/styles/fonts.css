@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: 'Ernest and Emily';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../assets/fonts/ErnestAndEmilyRegular.woff2') format('woff2');
+  }
+  
+  
+  @font-face {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../assets/fonts/LatoLight.woff2') format('woff2');
+  }
+  
+  
+  @font-face {
+    font-family: 'Lato';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../assets/fonts/LatoNormal.woff2') format('woff2');
+  }
+  

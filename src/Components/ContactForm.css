@@ -1,0 +1,98 @@
+.contact-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.contact-form button {
+
+  padding: 13px;
+  background-color: hsl(216, 82%, 58%);
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.contact-form h1 {
+  font-family: 'Ernest and Emily', cursive;
+  font-size: 100px;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.contact-form form p {
+  font: 150px 'Ernest and Emily W05 Regular';
+  font-size: 19px;
+  color: #e9e4e4;
+}
+
+.contact-form button span {
+  color: #f9f9f9;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+  .contact-form {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  .contact-form h1 {
+    font-size: 50px;
+    margin-right: 29px;
+  }
+
+  .contact-form form {
+    margin-right: 26px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 0.5rem;
+    border-radius: 0;
+  }
+
+  .contact-form button {
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+
+  .contact-form button span {
+    font-size: 1rem;
+  }
+
+
+
+  .contact-form form p {
+
+    font: 150px 'Ernest and Emily W05 Regular';
+    font-size: 18px;
+    color: #e9e4e4
+  }
+}

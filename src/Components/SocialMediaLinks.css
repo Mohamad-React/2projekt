@@ -1,0 +1,92 @@
+.social-media-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  margin-left: 449px;
+}
+
+.social-media-links a {
+  color: #fcfafa;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.face :hover {
+  color: #007bff;
+}
+
+.twit :hover {
+  color: #7eb8f7;
+}
+
+.youtube:hover {
+  color: red;
+}
+
+.instagram:hover {
+  color: #E1306C;
+}
+
+.twit {
+  color: #fcfafa;
+}
+
+.voon-anniversary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.voon-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.anniversary-years {
+
+  font-size: 24px;
+  color: #c4c1c1;
+}
+
+
+.image {
+  position: absolute;
+  width: 120px;
+  margin: -33px -139px;
+}
+
+@media (max-width: 1000px) {
+  .social-media-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin-left: -50px;
+    padding-bottom: 66px;
+  }
+
+  .voon-anniversary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 77px;
+  }
+  
+  
+}
